@@ -1,7 +1,6 @@
 from readFile import readDataSet
 from sklearn.kernel_ridge import KernelRidge
 from sklearn.svm import SVR
-from pca import do
 data, nrows, ncols = readDataSet("YearPredictionMSD20.txt")
 X = data[:,1:91]
 y = data[:,0]
