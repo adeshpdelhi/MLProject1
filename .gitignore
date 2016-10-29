@@ -1,3 +1,4 @@
 YearPredictionMSD.txt
-YearPredictionMSD[0-9]*.txt
+YearPredictionMSD*.txt
 *.pyc
+*.pkl
